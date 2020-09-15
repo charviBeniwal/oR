@@ -1,0 +1,52 @@
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    background: #bdb76b;
+    justify-content: space-evenly;
+}
+
+.start{
+    background: #ffefdf;
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    display: flex;
+    justify-content: flex-end;
+    background: #ffefdf ;
+}
+
+.start h1{
+ padding: 70px;
+}
+
+.about *{
+    
+    margin-bottom: 10px;
+}
+
+body{
+    margin: 0px;
+}
+
+.about a:visited{
+    color:rgb(168, 84, 119);
+}
+
+.about a:link{
+    color:rgb(168, 84, 119);
+}
+
+.item:hover {
+    transform: scale(1.2);
+}
+
+.item img{
+    position: relative;
+}
+
+item p{
+    position: absolute;
+}
